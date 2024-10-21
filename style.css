@@ -1,0 +1,57 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+
+}
+.nav {
+    /*display: inline-block;*/
+
+}
+
+nav ul {
+    list-style: none;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+      justify-content: flex-start;
+    flex-wrap: nowrap;
+
+}
+a{
+    text-decoration: none;
+}
+
+li{
+    margin: 10px 15px 20px 15px;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section img {
+    padding: 50px 10px 30px 10px;
+}
+
+#srch {
+    /*border-radius: 10%;*/
+    width: 250px;
+    height: 30px;
+    border-color: gray;
+}
+
+.btn {
+    border-color: gray;
+    background-color: darkgrey;
+    padding: 5px;
+
+}
+
+section input {
+    margin: 0px 5px 20px 5px;
+}
